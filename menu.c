@@ -2,12 +2,13 @@
 int main(){
   int option,s_num,mc_num,dnk_num,dsrt_num;
   int total=0;
+
   //Item count variables
   int s1=0,s2=0,s3=0,s4=0,s5=0,s6=0;
   int m1=0,m2=0,m3=0,m4=0,m5=0,m6=0;
   int d1=0,d2=0,d3=0,d4=0,d5=0,d6=0;
   int dsrt1=0,dsrt2=0,dsrt3=0,dsrt4=0,dsrt5=0,dsrt6=0;
-
+  //starting menu card
   //Welcome
   printf("\t\t\t Welcome Vasco cafe\n\n");
 
