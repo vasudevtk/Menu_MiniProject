@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main(){
   int p1, p2,chocolate_count=13;
-  printf("\t\t Chocolate Chilli Game\n\n");
-  printf("Chocolate Remaining = 13\n\n");
+  printf("\t\t Chocolate Chilly Game\n\n\n");
+  printf("\t\tChocolate Remaining = 13\n\n");
   while(chocolate_count>0){
     player1:
     printf("Player 1\n");
@@ -14,7 +14,7 @@ int main(){
     }
     chocolate_count-=p1;
     if(chocolate_count<=0){
-      printf("Player 1 got chilli\n");
+      printf("Player 1 got chilly\n");
       printf("Player 1 lost\n");
       printf("Player 2 Won\n");
       break;
@@ -31,7 +31,7 @@ int main(){
     chocolate_count-=p2;
     printf("Remaining Chocolate count = %d\n\n",chocolate_count);
     if(chocolate_count<=0){
-      printf("Player 2 got chilli\n");
+      printf("Player 2 got chilly\n");
       printf("Player 2 lost\n");
       printf("Player 1 Won\n");
       break;
