@@ -1,6 +1,8 @@
 #include <stdio.h>
 int main(){
   int p1, p2,chocolate_count=13;
+  printf("\t\t Chocolate Chilli Game\n\n");
+  printf("Chocolate Remaining = 13\n\n");
   while(chocolate_count>0){
     player1:
     printf("Player 1\n");
